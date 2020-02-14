@@ -10,12 +10,12 @@
 	<link rel="stylesheet" href="css/home.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato|Merriweather&display=swap" rel="stylesheet">
 </head>
-<body>
+<body data-spy="scroll" data-target="#navabar-site" data-offset="80">
 	<script src="js/jquery.slim.min.js"></script>
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	
-	<nav class="navbar navbar-dark navbar-expand-sm ml-auto shadow fixed-top" style="background: #333;">
+	<nav id="navabar-site" class="navbar navbar-dark navbar-expand-sm ml-auto shadow fixed-top" style="background: #333;">
 		<div class="container">
 			<img src="img/icononav1.png" alt="icono" style="width: 30px; margin-right: 10px; border-radius: 50%;"> 
 			<a href="#" class="navbar-brand">Sergi Benejam</a>
@@ -28,8 +28,8 @@
 		</button>
 		<div class="collapse navbar-collapse" id="myTogglerNav">
 			<div class="navbar-nav ml-auto">
-				<a class="nav-item nav-link active" href="#about_me">Inicio</a>
-				<a class="nav-item nav-link" href="#Curriculum Vitae">Curriculum</a>
+				<a class="nav-item nav-link" href="#about_me">Inicio</a>
+				<a class="nav-item nav-link" href="#Curriculum">Curriculum</a>
 				<a class="nav-item nav-link" href="#GitHub">GitHub</a>
 				<a class="nav-item nav-link" href="#contacto">Contacto</a>
 			</div><!-- navbar -->      
@@ -52,93 +52,100 @@
 
 <div class="container"id="about_me">
 	<div class="row justify-content-center">
-	<div class=" col-12">
-	<section class="py-5">
-		<h2> Sergi Benejam </h2>
-		<section class="presentation">
-			<div class="content-wrap shadow">
-				<h3> Sobre mi </h3>
-				<p> Realicé el Grado Universitario de Fisioterapia, en las Escuelas Universitarias Gimbernat (Barcelona), durante los cuales adquirí las competencias requeridas en unas de las mejores escuelas de Fisioterapia, a través de clases teóricas y prácticas. Durante el grado estuve realizando prácticas en varios hospitales y centros privados de referencia, como el Hospital de Bellvitge o el Hospital Germans Trias i Pujol entre otros que podrá comprobar en mi CV. </p> 
+		<div class=" col-12">
+			<section class="py-5">
+				<h2> Sergi Benejam </h2>
+				<section class="presentation">
+					<div class="content-wrap shadow">
+						<h3> Sobre mi </h3>
+						<p> Realicé el Grado Universitario de Fisioterapia, en las Escuelas Universitarias Gimbernat (Barcelona), durante los cuales adquirí las competencias requeridas en unas de las mejores escuelas de Fisioterapia, a través de clases teóricas y prácticas. Durante el grado estuve realizando prácticas en varios hospitales y centros privados de referencia, como el Hospital de Bellvitge o el Hospital Germans Trias i Pujol entre otros que podrá comprobar en mi CV. </p> 
 
-				<p> Durante el cuarto año de grado me especialicé en la Mención de Profundización en Fisioterapia de las Patologías del Tórax, en el cual me han enseñado los conocimientos necesarios sobre esta especialidad muy importante en el resto de países de la Unión Europea y que va cobrando importancia en nuestro país. A continuación, detallo las asignaturas impartidas en la Mención: </p>
+						<p> Durante el cuarto año de grado me especialicé en la Mención de Profundización en Fisioterapia de las Patologías del Tórax, en el cual me han enseñado los conocimientos necesarios sobre esta especialidad muy importante en el resto de países de la Unión Europea y que va cobrando importancia en nuestro país. A continuación, detallo las asignaturas impartidas en la Mención: </p>
 
-				<ul>
-					<li> Biomecánica. </li> 
-					<li> Cinesiología. </li>
-					<li> Fisioterapia del Tórax - Valoración de la función Cardiorespiratoria. </li>
-					<li> Diagnóstico de Fisioterapia. </li>	
-					<li> Tratamiento Fisioterapéutico del Tórax.</li>
-				</ul>
+						<ul>
+							<li> Biomecánica. </li> 
+							<li> Cinesiología. </li>
+							<li> Fisioterapia del Tórax - Valoración de la función Cardiorespiratoria. </li>
+							<li> Diagnóstico de Fisioterapia. </li>	
+							<li> Tratamiento Fisioterapéutico del Tórax.</li>
+						</ul>
 
-				<p>En este último año académico 2018’19 he estado cursando el Máster en Fisiología Integrativa impartido por la Universitat de Barcelona.</p>
+						<p>En este último año académico 2018’19 he estado cursando el Máster en Fisiología Integrativa impartido por la Universitat de Barcelona.</p>
 
-				<p>Actualmente estoy trabajando como fisioterapeuta en el centro Cruz y Navarro. Llevo más de tres años ejerciendo como fisioterapeuta y me he seguido formando y especializando. </p>
-			</div>
-		</section>
-	</section>
-</div>
-</div>
+						<p>Actualmente estoy trabajando como fisioterapeuta en el centro Cruz y Navarro. Llevo más de tres años ejerciendo como fisioterapeuta y me he seguido formando y especializando. </p>
+					</div>
+				</section>
+			</section>
+		</div>
+	</div>
 </div>
 <!---fin about me--->
 <!---inicio cv--->
 
-<div class="container" id="Curriculum Vitae">
+<div class="container" id="Curriculum">
 	<div class="col-sm-12 w-100 photo_dni">
 		<figure class="photoDNI">
-			<img src= "img/culobabuino.jpeg" class="shadow-sm p-1 mb-5 bg-dark p-2 bg-secondary rounded-circle mx-auto d-block" alt="photo DNI">
+			<img src= "img/culobabuino.jpeg" class="rounded-circle img-thumbnail mx-auto d-block" alt="photo DNI">
 		</figure>
 	</div>
 </div>
 <div class="container px-sm-5">
 	<div class="row mx-sm-n5">
 		
-		<div class="col-sm-6 px-sm-5 jumbotron shadow text-white"style="background-color: #B5C9C3;">
+		<div class="col-sm-6">
+			<div class="container">
+				<div class="px-sm-5 jumbotron shadow text-white"style="background-color: #B5C9C3;">
 
-		<h5 class="text-center font-weight-bold"> Personal Skills</h5>
-			<p class="text-justify">skills1</p>
-			<div class="progress">
-				<div class="progress-bar bg-info" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-			</div>
-			<p class="text-justify">skills2</p>
-			<div class="progress">
-				<div class="progress-bar bg-info" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-			</div>
-			<p class="text-justify">skills3</p>
-			<div class="progress">
-				<div class="progress-bar bg-info" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-			</div>
-			<p class="text-justify">skills4</p>
-			<div class="progress">
-				<div class="progress-bar bg-info" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-			</div>
-		</div>
-		
-<div class="col-sm-6 px-sm-5 jumbotron shadow text-white"style="background-color: #C9D3E0;">
-			<div class="developer">
-				<h5 class="text-center font-weight-bold"> Developer Skills</h5>
-				<p class="text-justify">HTML</p>
-				<div class="progress">
-					<div class="progress-bar bg-success" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-				</div>
-				<p class="text-justify">CSS</p>
-				<div class="progress">
-					<div class="progress-bar bg-success" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-				</div>
-				<p class="text-justify">PHP</p>
-				<div class="progress">
-					<div class="progress-bar bg-success" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-				</div>
-				<p class="text-justify">Angular</p>
-				<div class="progress">
-					<div class="progress-bar bg-success" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-				</div>
-				<p class="text-justify">JavaScript</p>
-				<div class="progress">
-					<div class="progress-bar bg-success" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+					<h5 class="text-center font-weight-bold"> Personal Skills</h5>
+					<p class="text-justify">skills1</p>
+					<div class="progress">
+						<div class="progress-bar bg-info" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<p class="text-justify">skills2</p>
+					<div class="progress">
+						<div class="progress-bar bg-info" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<p class="text-justify">skills3</p>
+					<div class="progress">
+						<div class="progress-bar bg-info" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<p class="text-justify">skills4</p>
+					<div class="progress">
+						<div class="progress-bar bg-info" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
 				</div>
 			</div>
 		</div>
 		
+		<div class="col-sm-6">
+			<div class="container">
+				<div class="px-sm-5 jumbotron shadow text-white"style="background-color: #C9D3E0;">
+					<div class="developer">
+						<h5 class="text-center font-weight-bold"> Developer Skills</h5>
+						<p class="text-justify">HTML</p>
+						<div class="progress">
+							<div class="progress-bar bg-success" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+						<p class="text-justify">CSS</p>
+						<div class="progress">
+							<div class="progress-bar bg-success" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+						<p class="text-justify">PHP</p>
+						<div class="progress">
+							<div class="progress-bar bg-success" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+						<p class="text-justify">Angular</p>
+						<div class="progress">
+							<div class="progress-bar bg-success" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+						<p class="text-justify">JavaScript</p>
+						<div class="progress">
+							<div class="progress-bar bg-success" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
 
@@ -192,31 +199,66 @@
 <!---Final_GitHub-->
 <!---incio_contacto-->
 <div class="container" id="contacto">
-	<div class="row">
-		<div class="col-12 text-left py-5">
-			<h5 class="text-left">Contacto</h5>
-			<ul>
-				<img src="img/icons/nombre1.svg" class="icon_nombre" alt="icono_nombre">
-				<li>Sergi Benejam Mingorance</li>
-				<img src="img/icons/mail.svg" class="icon_mail" alt="icono_mail">	
-				<li>benejamsergi4@gmail.com</li>
-				<img src="img/icons/phone.svg" class="icon_phone" alt="icono_phone">
-				<li>686051703</li>
-				<img src="img/icons/mapa.svg" class="icon_map" alt="icono_mapa">
-				<li>Barcelona</li>
-			</ul>
+	<h5 class="display-4">FORMULARIS (JS)</h5>
+	<div class="row justify-content-center">
+	<div class="col-md-8">
+			<form action="">
+				<div class="form-group row">
+					<label class="col-sm-2 d-xs-none d-sm-block">Nombre:</label>
+					<input type="text" placeholder="Escriba su nombre aquí" class="form-control col-sm-10">
+				</div>
+				<div class="form-group row">
+					<label class=" col-sm-2 col-from-label hidden-sm-down">e-mail:</label>
+					<input type="e-mail" placeholder="Escribe su e-mail" class="form-control col-sm-10">
+				</div>
+				<div class="form-group row">
+					<label class="col-sm-2 col-from-label hidden-sm-down">Telféono:</label>
+					<input type="phone" placeholder="Escriba su numero de teléfono" class="form-control col-sm-10">
+				</div>
+				<div class="form-group row">
+					<label class="col-sm-2 col-from-label hidden-sm-down">Mensaje:</label>
+					<input type="text" placeholder="Escriba aquí su mensaje" class="form-control text-justify col-sm-10"style="height: 200px">
+				</div>
+				<div class="form-group text-right">
+					<button class="btn btn-danger">Enviar</button>
+					
+				</div>
+
+			</form>
 		</div>
-	</div>
+</div>
 </div>
 <!---final_contacto--->
 <!---inicio footer--->
-<footer id="main-footer">
-	<h2>frase</h2>
-	<a id="logo-footer">
-		<a class="gmail" href="mailto:benejamsergi4@gmail.com">Gmail</a>
-		<span class="site-name"> Sergi Benejam / diseñador web</span>
-	</a>
-</footer>
+<footer class="page-footer pt-4">
+	<div class="container-fluid text-center text-md-left">
+		<div class="row">
+			<div class="col-md-6 mt-md-0 mt-3">
+				<h5 class="text-uppercase">Footer Content</h5>
+				<p>frase</p>
+			</div>
+			<hr class="clearfix w-100 d-md-none pb-3">
+			<div class="col-md-6 mb-md-0 mb-3">
+				<h5 class="text-sm-left">Contacto</h5>
+				<ul>
+					<img src="img/icons/nombre1.svg" class="icon_nombre" alt="icono_nombre">
+					<li class="text-left">Sergi Benejam Mingorance</li>
+					<img src="img/icons/mail.svg" class="icon_mail" alt="icono_mail">	
+					<li class="text-left">benejamsergi4@gmail.com</li>
+					<img src="img/icons/phone.svg" class="icon_phone" alt="icono_phone">
+					<li class="text-left">686051703</li>
+					<img src="img/icons/mapa.svg" class="icon_map" alt="icono_mapa">
+					<li class="text-left">Barcelona</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- Copyright -->
+	<div class="footer-copyright text-center py-3">© 2020 Copyright:
+	</div>
+	<!-- Copyright -->
 
+</footer>
+<!-- Footer -->
 </body>
 </html>
