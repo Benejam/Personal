@@ -1,43 +1,55 @@
-html{
-	font-family: 'Merriweather', serif;		
-}
-h2 h3{
-	font-family: 'Lato bold',sans-serif;
-}
-h3{
-	color: #665687;
-}
+
 body {
 	margin: 0;
 	padding: 0;
 	color: #666;
 	font-size: 1em;
 	line-height: 1.5;	
+	font-family: 'Roboto Mono', monospace !important;
+}
+h3{
+	color: #F7DC31;
 }
 h4{
-	font-family: 'Lato bold',sans-serif;
-	color:#B5C9C3;
+	
+	color:black;
 	font-weight: bold;
+	background-color:#F7DC31; 
 }
 
 h5{
-	font-family: 'Lato bold',sans-serif;
+
 	text-align:center;
+	color:black;
+	background-color: #F7DC31;
 }
+.lead{
+	color: #F7DC31;
+	
+}
+/*-----------menu navegación----------*/
+.navbar-light .navbar-toggler {
+	background-color: #F7DC31;
+	border-color:black;
+  }
+  #myTogglerNav  a:hover {
+	color:  #F7DC31!important;
+  }
 
 
-
+/*-------------sobre mi-------------*/
 .presentation {
 	margin-left:2%;
 	margin-right: 2%;
 }
 .content-wrap{
-	max-width: 950px
+	max-width: 950px;
 	margin:0;
-	background-color: #C9D3E0;
+	background-color: rgb(243, 243, 245);
 	padding: 1.5%;
 	margin-bottom: 20px;
-	border-radius: 1%;	
+	border-radius: 1%;
+	text-align:justify;	
 	
 }
 /*----------------------ESTILOS HEADER---------------*/
@@ -45,13 +57,20 @@ h5{
 .masthead{
 	height: 100vh;
 	min-height: 500px;
-	background-image: url("../img/banner.jpg");
+	background-image: url("../img/banner2.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 /*------IMG_DNI-------*/
+/*---------boton---------*/
+#sendForm{
+	color: black;
+	background-color: #F7DC31;
+	margin-bottom: 2%;
+}
+
 /*-----------icons------------*/
 .icon_nombre{
 	float:left;
@@ -74,11 +93,11 @@ ul{
 
 /*-----------ESTILOS FOOTER-----------*/
 .page-footer{
-	background: #333;
-	color: white;
+	background:rgb(243, 243, 245);
+	color:black;
 }
 .footer-copyright{
-	background:#A2A4B2;
+	background:white;;
 }
 
 
